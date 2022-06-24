@@ -1,7 +1,9 @@
-This repo is a GitHub Actions demo of publishing a React App into GitHub Pages.
+[在线预览](https://wangxiaochuan366.github.io/github-actions-demo) 
 
-View the [workflow file](./.github/workflows/ci.yml) and the [published website](https://wangxiaochuan366.github.io/github-actions-demo).
+使用的 action 库 [github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
 
-Read the details in [my blog](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html) (in Chinese).
+这个 action 的作用是：
+1. 当这个库执行 push 操作时，github 会自动执行 action 中的动作，即打包操作。
+2. 将打包后的文件推送到我的 github page。
 
-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
+这样就不用每次打包后，手动替换 github page 中的页面了。
